@@ -1,14 +1,11 @@
-import React, {Component, Fragment} from 'react';
+import React, { Component } from 'react'
 
-import './index.css';
-
-
-export default class ElComponente extends Component {
-  render (){
-    return(
-      <Fragment>
-        <p>Hola soy componente externo!</p> 
-      </Fragment>
+export default class MediumProfile extends Component {
+  render() {
+    return (
+      <div>
+        <p>Hola soy un componente externo!</p>
+      </div>
     )
   }
 }
